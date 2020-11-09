@@ -11,6 +11,8 @@
 
 .anuncio {
   background-color: khaki;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .anuncio h3 {
@@ -60,4 +62,19 @@
     border-bottom-right-radius: 5px;
     background-color: #025157;
     color: white;
+}
+
+.publicidad{
+    display: flex;
+}
+
+.videoAnuncio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.videoAnuncio img{
+    width: 120px;
+    margin-top: 10px;
 }
