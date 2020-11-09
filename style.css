@@ -20,3 +20,61 @@ body{
     height: 100px;
     background-color: aqua;
 }
+
+.texto{
+    font-size: 18px;
+    color: darkgreen;
+}
+
+.anuncio {
+  background-color: khaki;
+}
+
+.anuncio h3 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+  line-height: 48px;
+  color: #025157;
+}
+
+.anuncio p {
+  font-size: 16px;
+  color: #343434;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.anuncio form {
+  display: flex;
+}
+
+.anuncio form p {
+  color: #025157;
+  margin-right: 18px;
+}
+
+.formCorreo{
+    display: flex;
+
+}
+
+.formCorreo input{
+    margin: auto;
+    height: 40px;
+    padding-left: 20px;
+    border: 1px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.formCorreo button{
+    margin: auto;
+    height: 42px;
+    border: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #025157;
+    color: white;
+}
